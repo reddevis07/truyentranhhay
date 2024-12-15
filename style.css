@@ -1,0 +1,72 @@
+/* Định dạng cơ bản */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Nội dung */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.comic {
+    display: inline-block;
+    width: 200px;
+    margin: 15px;
+    text-align: left;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.comic img {
+    width: 100%;
+    height: auto;
+}
+
+.comic h3 {
+    font-size: 1.2rem;
+    margin: 10px;
+    color: #222;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
